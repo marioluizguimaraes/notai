@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router'
-import { Bell, CalendarDays, HelpCircle, LogOut, Menu, Plus, Search, Settings } from 'lucide-react'
+import { CalendarDays, HelpCircle, LogOut, Menu, Plus, Settings } from 'lucide-react'
 import { toast } from 'sonner'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import {
@@ -17,7 +17,9 @@ import { Logo } from '@/components/shared/logo'
 import { useLogout } from '@/features/auth/hooks/use-login'
 import { useSessao } from '@/features/auth/session'
 import { formatarCNPJ, iniciais } from '@/lib/format'
+import { PainelNotificacoes } from '@/features/notificacoes/components/painel-notificacoes'
 import { SidebarConteudo } from './app-sidebar'
+import { BuscaComando } from './busca-comando'
 
 function MenuUsuario() {
   const s = useSessao()
@@ -76,20 +78,11 @@ export function AppTopbar() {
       </Sheet>
       <Logo compacto className="lg:hidden" />
 
-      <label className="relative hidden max-w-72 flex-1 md:block">
-        <span className="sr-only">Buscar</span>
-        <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" />
-        <input
-          type="search"
-          placeholder="Buscar notas, clientes…"
-          className="h-10 w-full rounded-full border border-border bg-card pr-14 pl-9 text-sm outline-none placeholder:text-muted-foreground focus-visible:ring-3 focus-visible:ring-ring/30"
-        />
-        <kbd className="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 rounded-sm bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground">
-          ⌘K
-        </kbd>
-      </label>
+      <div className="flex flex-1 justify-end md:justify-start">
+        <BuscaComando />
+      </div>
 
-      <div className="ml-auto flex items-center gap-2">
+      <div className="flex items-center gap-2">
         <span className="hidden h-10 items-center gap-2 rounded-full border border-border bg-card px-4 text-sm font-medium xl:inline-flex">
           <CalendarDays className="size-4 text-muted-foreground" />
           {competencia}
@@ -97,10 +90,7 @@ export function AppTopbar() {
         <IconCircleButton label="Ajuda" className="hidden size-10 sm:grid">
           <HelpCircle />
         </IconCircleButton>
-        <IconCircleButton label="Notificações" className="relative size-10">
-          <Bell />
-          <span className="absolute top-2 right-2.5 size-2 rounded-full border-2 border-card bg-danger" />
-        </IconCircleButton>
+        <PainelNotificacoes />
         <MenuUsuario />
         <Link
           to="/notas/nova"
