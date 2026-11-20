@@ -1,0 +1,14 @@
+# Contexto local do projeto (não vai para o GitHub)
+CLAUDE.md
+CLAUDE.local.md
+.context/
+
+# Sistema
+.DS_Store
+
+# Segredos e certificados
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
