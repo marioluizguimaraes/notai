@@ -171,6 +171,8 @@ export function NovaNotaPage() {
   const [params, setParams] = useSearchParams()
   const rascunhoId = params.get('rascunho') ?? undefined
   const origemId = rascunhoId ?? params.get('de') ?? undefined
+  /** Vindo da busca rápida: já começa com o cliente escolhido. */
+  const clienteParam = params.get('cliente') ?? ''
   const origem = useNota(origemId)
   const { data: empresa } = useEmpresaAtual()
 
@@ -189,8 +191,17 @@ export function NovaNotaPage() {
     Form
   >({
     resolver: zodResolver(formularioNotaSchema),
-    defaultValues: vazio,
+    defaultValues: { ...vazio, tomador_id: clienteParam },
   })
+
+  // Trocar o cliente pela busca rápida estando nesta tela recomeça a conversa com ele.
+  const clienteAplicado = useRef(clienteParam)
+  useEffect(() => {
+    if (origemId || clienteAplicado.current === clienteParam) return
+    clienteAplicado.current = clienteParam
+    reset({ ...vazio, tomador_id: clienteParam })
+    setEtapa(0)
+  }, [clienteParam, origemId, reset])
   const valores = useWatch({ control }) as FormularioNotaEntrada
 
   // Rascunho ou nota rejeitada: preenche o formulário com os dados de origem.
@@ -364,7 +375,7 @@ export function NovaNotaPage() {
               }
             >
               <ChatEmissao
-                key={`${origem.data?.id ?? 'nova'}-${emitida?.id ?? ''}`}
+                key={`${origem.data?.id ?? 'nova'}-${emitida?.id ?? ''}-${clienteParam}`}
                 control={control}
                 setValue={setValue}
                 getValues={getValues}

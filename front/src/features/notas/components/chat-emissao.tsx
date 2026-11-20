@@ -401,7 +401,7 @@ export function ChatEmissao({
     }
   }
 
-  const [continuando] = useState(() => ORDEM.some((c) => !!getValues()[c] && c !== 'competencia'))
+  const [continuando] = useState(() => ORDEM.filter((c) => !!getValues()[c]).length >= 2)
   const [estado, dispatch] = useReducer(reducer, null, () => {
     // Rascunho ou nota recusada: o que já veio preenchido conta como respondido.
     const v = getValues()
