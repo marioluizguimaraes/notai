@@ -298,6 +298,16 @@ export const rotasNotas: Record<string, Handler> = {
     } as Partial<NotaMock>)
     if (previa.rascunho_id) db.notas = db.notas.filter((n) => n.id !== previa.rascunho_id)
     db.notas.unshift(nota)
+    db.notificacoes.unshift({
+      id: novoId('ntf'),
+      tipo: 'NOTA_AUTORIZADA',
+      severidade: 'SUCESSO',
+      titulo: `Nota nº ${numero} autorizada`,
+      descricao: `${nota.tomador.nome} · R$ ${nota.valor.toFixed(2).replace('.', ',')}`,
+      criada_em: agora,
+      lida: false,
+      link: `/notas/${nota.id}`,
+    })
     return { status: 201, body: nota, atrasoExtra: 1400 }
   },
 

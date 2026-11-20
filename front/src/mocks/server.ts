@@ -13,6 +13,14 @@ import { erro, ok, type Handler, type MockRequest, type MockResponse } from './t
 
 export type { MockRequest, MockResponse }
 
+/** Só as não lidas: notificação lida some da lista. */
+const listaNotificacoes = () => {
+  const itens = db.notificacoes
+    .filter((n) => !n.lida)
+    .sort((a, b) => b.criada_em.localeCompare(a.criada_em))
+  return { itens, nao_lidas: itens.length }
+}
+
 const naoAutorizado = erro(401, 'Sessão expirada. Entre novamente.', 'NAO_AUTENTICADO')
 
 /** Rotas públicas (sem token). As demais exigem `Authorization: Bearer`. */
@@ -39,6 +47,17 @@ const rotas: Record<string, Handler> = {
     })
   },
   'GET /servicos': () => ok({ itens: db.servicos }),
+  'GET /notificacoes': () => ok(listaNotificacoes()),
+  'POST /notificacoes/lidas': () => {
+    db.notificacoes.forEach((n) => (n.lida = true))
+    return ok(listaNotificacoes())
+  },
+  'POST /notificacoes/:id/lida': ({ params }) => {
+    const n = db.notificacoes.find((x) => x.id === params.id)
+    if (!n) return erro(404, 'Notificação não encontrada.', 'NAO_ENCONTRADA')
+    n.lida = true
+    return ok(listaNotificacoes())
+  },
   ...rotasNotas,
 }
 

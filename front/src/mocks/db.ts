@@ -6,6 +6,7 @@
 import dashboardResumo from './data/dashboard-resumo.json'
 import empresaAtual from './data/empresa-atual.json'
 import notasJson from './data/notas.json'
+import notificacoesJson from './data/notificacoes.json'
 import servicosJson from './data/servicos.json'
 import tomadoresJson from './data/tomadores.json'
 
@@ -30,7 +31,7 @@ export interface PreviaMock {
 }
 
 /** Assinatura dos JSONs: se os dados de demonstração mudarem, o estado salvo antigo é ignorado. */
-const ASSINATURA = [notasJson, tomadoresJson, servicosJson, empresaAtual]
+const ASSINATURA = [notasJson, tomadoresJson, servicosJson, empresaAtual, notificacoesJson]
   .map((j) => JSON.stringify(j).length.toString(36))
   .join('.')
 const CHAVE = `notai.mock.db.${ASSINATURA}`
@@ -42,6 +43,7 @@ function inicial() {
     servicos: structuredClone(servicosJson.itens),
     notas: structuredClone(notasJson.itens) as NotaMock[],
     proximoNumero: notasJson.proximo_numero_dps,
+    notificacoes: structuredClone(notificacoesJson.itens) as NotificacaoMock[],
   }
 }
 type Persistido = ReturnType<typeof inicial>
@@ -70,11 +72,9 @@ export const db = {
 /** Grava o estado após uma alteração (chamado pelo servidor em POST/PUT/PATCH/DELETE). */
 export function salvarDb() {
   try {
-    const { empresa, tomadores, servicos, notas, proximoNumero } = db
-    sessionStorage.setItem(
-      CHAVE,
-      JSON.stringify({ empresa, tomadores, servicos, notas, proximoNumero }),
-    )
+    // tudo, menos o que é só da sessão atual
+    const { previas: _previas, competenciaReferencia: _ref, ...persistir } = db
+    sessionStorage.setItem(CHAVE, JSON.stringify(persistir))
   } catch {
     /* ignorar */
   }
@@ -92,6 +92,9 @@ export function resetarDb() {
 }
 
 export type { NotaMock }
+export type NotificacaoMock = Omit<(typeof notificacoesJson.itens)[number], 'link'> & {
+  link: string | null
+}
 
 let seq = 0
 export const novoId = (prefixo: string) =>

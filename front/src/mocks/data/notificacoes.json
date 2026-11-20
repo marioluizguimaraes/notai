@@ -1,0 +1,104 @@
+{
+  "itens": [
+    {
+      "id": "ntf_07",
+      "tipo": "NOTA_AUTORIZADA",
+      "severidade": "SUCESSO",
+      "titulo": "Nota nº 25 autorizada",
+      "descricao": "Café Aroma · R$ 270,00",
+      "criada_em": "2026-11-19T09:06:00-03:00",
+      "lida": false,
+      "link": "/notas/nfs_025"
+    },
+    {
+      "id": "ntf_06",
+      "tipo": "NOTA_ENVIANDO",
+      "severidade": "ATENCAO",
+      "titulo": "Nota nº 24 aguardando o governo",
+      "descricao": "Padaria Bom Grão · enviada às 08:41. Consulte a situação em alguns minutos.",
+      "criada_em": "2026-11-19T08:42:00-03:00",
+      "lida": false,
+      "link": "/notas/nfs_024"
+    },
+    {
+      "id": "ntf_10",
+      "tipo": "NOTA_AUTORIZADA",
+      "severidade": "SUCESSO",
+      "titulo": "Nota nº 23 autorizada",
+      "descricao": "Estúdio Lume · R$ 950,00",
+      "criada_em": "2026-11-19T07:59:00-03:00",
+      "lida": false,
+      "link": "/notas/nfs_023"
+    },
+    {
+      "id": "ntf_05",
+      "tipo": "CERTIFICADO_VENCENDO",
+      "severidade": "ATENCAO",
+      "titulo": "Certificado A1 vence em 23 dias",
+      "descricao": "Válido até 12/12/2026. Sem ele não é possível emitir notas.",
+      "criada_em": "2026-11-19T07:00:00-03:00",
+      "lida": false,
+      "link": null
+    },
+    {
+      "id": "ntf_09",
+      "tipo": "DAS_VENCIMENTO",
+      "severidade": "ATENCAO",
+      "titulo": "DAS de novembro vence em 20/12",
+      "descricao": "R$ 81,05. Pague até o vencimento para evitar multa e juros.",
+      "criada_em": "2026-11-18T09:00:00-03:00",
+      "lida": false,
+      "link": null
+    },
+    {
+      "id": "ntf_04",
+      "tipo": "NOTA_REJEITADA",
+      "severidade": "ERRO",
+      "titulo": "Nota nº 22 recusada (E0120)",
+      "descricao": "Inscrição municipal não encontrada no cadastro nacional. Corrija e emita de novo.",
+      "criada_em": "2026-11-17T16:21:00-03:00",
+      "lida": false,
+      "link": "/notas/nfs_022"
+    },
+    {
+      "id": "ntf_08",
+      "tipo": "LIMITE_MEI",
+      "severidade": "ATENCAO",
+      "titulo": "Faltam R$ 22.436 para o limite do MEI",
+      "descricao": "No ritmo atual, o limite anual será atingido em dezembro. Converse com seu contador.",
+      "criada_em": "2026-11-16T10:00:00-03:00",
+      "lida": false,
+      "link": "/"
+    },
+    {
+      "id": "ntf_03",
+      "tipo": "NOTA_CANCELADA",
+      "severidade": "INFO",
+      "titulo": "Nota nº 19 cancelada",
+      "descricao": "Mercado Sol Nascente · serviço não prestado.",
+      "criada_em": "2026-11-13T18:00:00-03:00",
+      "lida": false,
+      "link": "/notas/nfs_019"
+    },
+    {
+      "id": "ntf_02",
+      "tipo": "LIMITE_MEI",
+      "severidade": "INFO",
+      "titulo": "Você já usou 72% do limite do MEI",
+      "descricao": "Faturado no ano: R$ 58.563 de R$ 81.000.",
+      "criada_em": "2026-11-10T09:00:00-03:00",
+      "lida": false,
+      "link": "/"
+    },
+    {
+      "id": "ntf_01",
+      "tipo": "DAS_VENCIMENTO",
+      "severidade": "INFO",
+      "titulo": "DAS de outubro pago",
+      "descricao": "R$ 81,05 · compensado em 20/11.",
+      "criada_em": "2026-11-05T10:30:00-03:00",
+      "lida": false,
+      "link": null
+    }
+  ]
+}
