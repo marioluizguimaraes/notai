@@ -1,0 +1,39 @@
+{
+  "itens": [
+    {
+      "id": "srv_01",
+      "apelido": "Identidade visual",
+      "codigo_servico": "170601",
+      "nbs": "120190000",
+      "descricao_padrao": "Criação de identidade visual: logotipo, paleta de cores, tipografia e manual de marca."
+    },
+    {
+      "id": "srv_02",
+      "apelido": "Pacote de posts",
+      "codigo_servico": "170601",
+      "nbs": "120190000",
+      "descricao_padrao": "Criação de pacote mensal de artes para redes sociais."
+    },
+    {
+      "id": "srv_03",
+      "apelido": "Cartão de visita",
+      "codigo_servico": "170601",
+      "nbs": "120190000",
+      "descricao_padrao": "Criação de arte para cartão de visita, frente e verso."
+    },
+    {
+      "id": "srv_04",
+      "apelido": "Material de campanha",
+      "codigo_servico": "170601",
+      "nbs": "120190000",
+      "descricao_padrao": "Criação de peças gráficas para campanha promocional."
+    },
+    {
+      "id": "srv_05",
+      "apelido": "Design de embalagem",
+      "codigo_servico": "170601",
+      "nbs": "120190000",
+      "descricao_padrao": "Criação de arte para embalagem de produto."
+    }
+  ]
+}

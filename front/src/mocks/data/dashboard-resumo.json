@@ -1,0 +1,163 @@
+{
+  "competencia": "2026-11",
+  "atualizado_em": "2026-11-19T09:12:00-03:00",
+  "pendencias_total": 3,
+  "kpis": {
+    "faturado_mes": {
+      "valor": 6840.0,
+      "variacao_pct": 0.124,
+      "comparado_com": "outubro"
+    },
+    "notas_emitidas": {
+      "quantidade": 15,
+      "autorizadas": 12,
+      "variacao_pct": 0.071
+    },
+    "limite_mei": {
+      "usado_pct": 0.723,
+      "faturado_ano": 58563.2,
+      "limite_anual": 81000.0,
+      "mes_atual": 11,
+      "meses_no_ano": 12
+    },
+    "pendencias": {
+      "quantidade": 3,
+      "valor_em_aberto": 2150.0
+    }
+  },
+  "faturamento_diario": [
+    {
+      "data": "2026-11-01",
+      "valor": 0
+    },
+    {
+      "data": "2026-11-02",
+      "valor": 0
+    },
+    {
+      "data": "2026-11-03",
+      "valor": 450.0
+    },
+    {
+      "data": "2026-11-04",
+      "valor": 320.0
+    },
+    {
+      "data": "2026-11-05",
+      "valor": 0
+    },
+    {
+      "data": "2026-11-06",
+      "valor": 780.0
+    },
+    {
+      "data": "2026-11-07",
+      "valor": 210.0
+    },
+    {
+      "data": "2026-11-08",
+      "valor": 0
+    },
+    {
+      "data": "2026-11-09",
+      "valor": 0
+    },
+    {
+      "data": "2026-11-10",
+      "valor": 560.0
+    },
+    {
+      "data": "2026-11-11",
+      "valor": 390.0
+    },
+    {
+      "data": "2026-11-12",
+      "valor": 980.0
+    },
+    {
+      "data": "2026-11-13",
+      "valor": 420.0
+    },
+    {
+      "data": "2026-11-14",
+      "valor": 610.0
+    },
+    {
+      "data": "2026-11-15",
+      "valor": 150.0
+    },
+    {
+      "data": "2026-11-16",
+      "valor": 0
+    },
+    {
+      "data": "2026-11-17",
+      "valor": 640.0
+    },
+    {
+      "data": "2026-11-18",
+      "valor": 380.0
+    },
+    {
+      "data": "2026-11-19",
+      "valor": 950.0
+    }
+  ],
+  "resumo_fiscal": {
+    "das_mes": {
+      "valor": 81.05,
+      "vencimento": "2026-12-20",
+      "status": "A_PAGAR"
+    },
+    "faturado_ano": {
+      "valor": 58563.2,
+      "variacao_pct": 0.183
+    },
+    "limite_restante": {
+      "valor": 22436.8,
+      "variacao_pct": -0.105
+    }
+  },
+  "notas_por_status": {
+    "valor_total": 6840.0,
+    "itens": [
+      {
+        "status": "AUTORIZADA",
+        "quantidade": 12,
+        "valor": 5890.0
+      },
+      {
+        "status": "ENVIANDO",
+        "quantidade": 1,
+        "valor": 380.0
+      },
+      {
+        "status": "REJEITADA",
+        "quantidade": 1,
+        "valor": 420.0
+      },
+      {
+        "status": "CANCELADA",
+        "quantidade": 1,
+        "valor": 150.0
+      }
+    ]
+  },
+  "proxima_acao": {
+    "tipo": "CERTIFICADO_VENCENDO",
+    "severidade": "ATENCAO",
+    "titulo": "Seu certificado A1 vence em 23 dias",
+    "descricao": "Sem ele não é possível emitir notas. Renove com a sua certificadora e envie o novo arquivo.",
+    "destaque": {
+      "rotulo": "Válido até 12/12/2026",
+      "detalhe": "Titular confere com o CNPJ"
+    },
+    "acao_primaria": {
+      "rotulo": "Enviar novo certificado",
+      "rota": "/configuracoes/certificado"
+    },
+    "acao_secundaria": {
+      "rotulo": "Depois"
+    }
+  }
+}

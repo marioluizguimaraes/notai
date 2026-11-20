@@ -1,0 +1,1776 @@
+{
+  "proximo_numero_dps": 26,
+  "itens": [
+    {
+      "id": "nfs_001",
+      "serie": "00001",
+      "numero_dps": 1,
+      "chave_acesso": "35503082112223330001810000000000000012611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 390.0,
+      "competencia": "2026-09-04",
+      "emitida_em": "2026-09-04T10:00:00-03:00",
+      "criada_em": "2026-09-04T09:55:00-03:00",
+      "tomador": {
+        "id": "tom_02",
+        "nome": "Estúdio Lume",
+        "documento": "19131243000197",
+        "tipo_documento": "CNPJ",
+        "email": "financeiro@estudiolume.com.br",
+        "endereco": {
+          "cep": "05416001",
+          "logradouro": "Rua dos Pinheiros",
+          "numero": "870",
+          "complemento": null,
+          "bairro": "Pinheiros",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_02",
+        "apelido": "Pacote de posts",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de pacote mensal de artes para redes sociais.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-09-04T10:01:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-09-04T10:00:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-09-04T09:58:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_002",
+      "serie": "00001",
+      "numero_dps": 2,
+      "chave_acesso": "35503082112223330001810000000000000022611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 520.0,
+      "competencia": "2026-09-10",
+      "emitida_em": "2026-09-11T15:30:00-03:00",
+      "criada_em": "2026-09-11T15:25:00-03:00",
+      "tomador": {
+        "id": "tom_06",
+        "nome": "Escola Pequeno Saber",
+        "documento": "28716354000156",
+        "tipo_documento": "CNPJ",
+        "email": "secretaria@pequenosaber.edu.br",
+        "endereco": {
+          "cep": "04003001",
+          "logradouro": "Rua Abílio Soares",
+          "numero": "300",
+          "complemento": null,
+          "bairro": "Paraíso",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_04",
+        "apelido": "Material de campanha",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de peças gráficas para campanha promocional.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-09-11T15:31:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-09-11T15:30:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-09-11T15:28:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_003",
+      "serie": "00001",
+      "numero_dps": 3,
+      "chave_acesso": "35503082112223330001810000000000000032611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 180.0,
+      "competencia": "2026-09-18",
+      "emitida_em": "2026-09-18T09:45:00-03:00",
+      "criada_em": "2026-09-18T09:40:00-03:00",
+      "tomador": {
+        "id": "tom_08",
+        "nome": "Café Aroma",
+        "documento": "36192748000180",
+        "tipo_documento": "CNPJ",
+        "email": null,
+        "endereco": {
+          "cep": "01426001",
+          "logradouro": "Rua Augusta",
+          "numero": "2690",
+          "complemento": null,
+          "bairro": "Jardins",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-09-18T09:46:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-09-18T09:45:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-09-18T09:43:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_004",
+      "serie": "00001",
+      "numero_dps": 4,
+      "chave_acesso": "35503082112223330001810000000000000042611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 1450.0,
+      "competencia": "2026-09-24",
+      "emitida_em": "2026-09-25T14:10:00-03:00",
+      "criada_em": "2026-09-25T14:05:00-03:00",
+      "tomador": {
+        "id": "tom_04",
+        "nome": "Clínica Vida Plena",
+        "documento": "11444777000161",
+        "tipo_documento": "CNPJ",
+        "email": "adm@vidaplena.med.br",
+        "endereco": {
+          "cep": "01451000",
+          "logradouro": "Avenida Brigadeiro Faria Lima",
+          "numero": "2232",
+          "complemento": "Sala 101",
+          "bairro": "Jardim Paulistano",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_01",
+        "apelido": "Identidade visual",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de identidade visual: logotipo, paleta de cores, tipografia e manual de marca.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-09-25T14:11:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-09-25T14:10:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-09-25T14:08:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_005",
+      "serie": "00001",
+      "numero_dps": 5,
+      "chave_acesso": "35503082112223330001810000000000000052611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 610.0,
+      "competencia": "2026-10-02",
+      "emitida_em": "2026-10-02T11:05:00-03:00",
+      "criada_em": "2026-10-02T11:00:00-03:00",
+      "tomador": {
+        "id": "tom_01",
+        "nome": "Padaria Bom Grão",
+        "documento": "45723174000110",
+        "tipo_documento": "CNPJ",
+        "email": "contato@bomgrao.com.br",
+        "endereco": {
+          "cep": "01310100",
+          "logradouro": "Avenida Paulista",
+          "numero": "1578",
+          "complemento": "Loja 3",
+          "bairro": "Bela Vista",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_04",
+        "apelido": "Material de campanha",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de peças gráficas para campanha promocional.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-10-02T11:06:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-10-02T11:05:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-10-02T11:03:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_006",
+      "serie": "00001",
+      "numero_dps": 6,
+      "chave_acesso": "35503082112223330001810000000000000062611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 390.0,
+      "competencia": "2026-10-08",
+      "emitida_em": "2026-10-08T16:20:00-03:00",
+      "criada_em": "2026-10-08T16:15:00-03:00",
+      "tomador": {
+        "id": "tom_02",
+        "nome": "Estúdio Lume",
+        "documento": "19131243000197",
+        "tipo_documento": "CNPJ",
+        "email": "financeiro@estudiolume.com.br",
+        "endereco": {
+          "cep": "05416001",
+          "logradouro": "Rua dos Pinheiros",
+          "numero": "870",
+          "complemento": null,
+          "bairro": "Pinheiros",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_02",
+        "apelido": "Pacote de posts",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de pacote mensal de artes para redes sociais.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-10-08T16:21:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-10-08T16:20:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-10-08T16:18:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_007",
+      "serie": "00001",
+      "numero_dps": 7,
+      "chave_acesso": "35503082112223330001810000000000000072611000000000",
+      "status": "CANCELADA",
+      "ambiente": "TESTES",
+      "valor": 160.0,
+      "competencia": "2026-10-15",
+      "emitida_em": "2026-10-15T10:40:00-03:00",
+      "criada_em": "2026-10-15T10:35:00-03:00",
+      "tomador": {
+        "id": "tom_07",
+        "nome": "Juliana Prado",
+        "documento": "41827365919",
+        "tipo_documento": "CPF",
+        "email": "ju.prado@email.com",
+        "endereco": {
+          "cep": "05014000",
+          "logradouro": "Rua Cardoso de Almeida",
+          "numero": "90",
+          "complemento": null,
+          "bairro": "Perdizes",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_CANCELADA",
+          "descricao": "Cancelada: erro na emissão",
+          "ocorrido_em": "2026-10-15T11:00:00-03:00"
+        },
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-10-15T10:41:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-10-15T10:40:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-10-15T10:38:00-03:00"
+        }
+      ],
+      "cancelamento": {
+        "motivo": 1,
+        "justificativa": "Valor informado errado; nota reemitida com o valor correto.",
+        "cancelada_em": "2026-10-15T11:00:00-03:00"
+      }
+    },
+    {
+      "id": "nfs_008",
+      "serie": "00001",
+      "numero_dps": 8,
+      "chave_acesso": "35503082112223330001810000000000000082611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 180.0,
+      "competencia": "2026-10-15",
+      "emitida_em": "2026-10-15T11:02:00-03:00",
+      "criada_em": "2026-10-15T10:57:00-03:00",
+      "tomador": {
+        "id": "tom_07",
+        "nome": "Juliana Prado",
+        "documento": "41827365919",
+        "tipo_documento": "CPF",
+        "email": "ju.prado@email.com",
+        "endereco": {
+          "cep": "05014000",
+          "logradouro": "Rua Cardoso de Almeida",
+          "numero": "90",
+          "complemento": null,
+          "bairro": "Perdizes",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-10-15T11:03:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-10-15T11:02:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-10-15T11:00:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_009",
+      "serie": "00001",
+      "numero_dps": 9,
+      "chave_acesso": "35503082112223330001810000000000000092611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 1240.0,
+      "competencia": "2026-10-21",
+      "emitida_em": "2026-10-22T13:15:00-03:00",
+      "criada_em": "2026-10-22T13:10:00-03:00",
+      "tomador": {
+        "id": "tom_06",
+        "nome": "Escola Pequeno Saber",
+        "documento": "28716354000156",
+        "tipo_documento": "CNPJ",
+        "email": "secretaria@pequenosaber.edu.br",
+        "endereco": {
+          "cep": "04003001",
+          "logradouro": "Rua Abílio Soares",
+          "numero": "300",
+          "complemento": null,
+          "bairro": "Paraíso",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_05",
+        "apelido": "Design de embalagem",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para embalagem de produto.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-10-22T13:16:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-10-22T13:15:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-10-22T13:13:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_010",
+      "serie": "00001",
+      "numero_dps": 10,
+      "chave_acesso": "35503082112223330001810000000000000102611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 870.0,
+      "competencia": "2026-10-29",
+      "emitida_em": "2026-10-29T17:50:00-03:00",
+      "criada_em": "2026-10-29T17:45:00-03:00",
+      "tomador": {
+        "id": "tom_05",
+        "nome": "Mercado Sol Nascente",
+        "documento": "32984561000169",
+        "tipo_documento": "CNPJ",
+        "email": "compras@solnascente.com.br",
+        "endereco": {
+          "cep": "03310000",
+          "logradouro": "Rua Itapura",
+          "numero": "1200",
+          "complemento": null,
+          "bairro": "Tatuapé",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_04",
+        "apelido": "Material de campanha",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de peças gráficas para campanha promocional.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-10-29T17:51:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-10-29T17:50:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-10-29T17:48:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_011",
+      "serie": "00001",
+      "numero_dps": 11,
+      "chave_acesso": "35503082112223330001810000000000000112611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 450.0,
+      "competencia": "2026-11-03",
+      "emitida_em": "2026-11-03T10:12:00-03:00",
+      "criada_em": "2026-11-03T10:07:00-03:00",
+      "tomador": {
+        "id": "tom_04",
+        "nome": "Clínica Vida Plena",
+        "documento": "11444777000161",
+        "tipo_documento": "CNPJ",
+        "email": "adm@vidaplena.med.br",
+        "endereco": {
+          "cep": "01451000",
+          "logradouro": "Avenida Brigadeiro Faria Lima",
+          "numero": "2232",
+          "complemento": "Sala 101",
+          "bairro": "Jardim Paulistano",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_04",
+        "apelido": "Material de campanha",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de peças gráficas para campanha promocional.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-03T10:13:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-03T10:12:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-03T10:10:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_012",
+      "serie": "00001",
+      "numero_dps": 12,
+      "chave_acesso": "35503082112223330001810000000000000122611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 320.0,
+      "competencia": "2026-11-04",
+      "emitida_em": "2026-11-04T09:40:00-03:00",
+      "criada_em": "2026-11-04T09:35:00-03:00",
+      "tomador": {
+        "id": "tom_06",
+        "nome": "Escola Pequeno Saber",
+        "documento": "28716354000156",
+        "tipo_documento": "CNPJ",
+        "email": "secretaria@pequenosaber.edu.br",
+        "endereco": {
+          "cep": "04003001",
+          "logradouro": "Rua Abílio Soares",
+          "numero": "300",
+          "complemento": null,
+          "bairro": "Paraíso",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_02",
+        "apelido": "Pacote de posts",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de pacote mensal de artes para redes sociais.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-04T09:41:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-04T09:40:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-04T09:38:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_013",
+      "serie": "00001",
+      "numero_dps": 13,
+      "chave_acesso": "35503082112223330001810000000000000132611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 780.0,
+      "competencia": "2026-11-06",
+      "emitida_em": "2026-11-06T14:05:00-03:00",
+      "criada_em": "2026-11-06T14:00:00-03:00",
+      "tomador": {
+        "id": "tom_08",
+        "nome": "Café Aroma",
+        "documento": "36192748000180",
+        "tipo_documento": "CNPJ",
+        "email": null,
+        "endereco": {
+          "cep": "01426001",
+          "logradouro": "Rua Augusta",
+          "numero": "2690",
+          "complemento": null,
+          "bairro": "Jardins",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_01",
+        "apelido": "Identidade visual",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de identidade visual: logotipo, paleta de cores, tipografia e manual de marca.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-06T14:06:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-06T14:05:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-06T14:03:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_014",
+      "serie": "00001",
+      "numero_dps": 14,
+      "chave_acesso": "35503082112223330001810000000000000142611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 210.0,
+      "competencia": "2026-11-07",
+      "emitida_em": "2026-11-07T11:22:00-03:00",
+      "criada_em": "2026-11-07T11:17:00-03:00",
+      "tomador": {
+        "id": "tom_07",
+        "nome": "Juliana Prado",
+        "documento": "41827365919",
+        "tipo_documento": "CPF",
+        "email": "ju.prado@email.com",
+        "endereco": {
+          "cep": "05014000",
+          "logradouro": "Rua Cardoso de Almeida",
+          "numero": "90",
+          "complemento": null,
+          "bairro": "Perdizes",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-07T11:23:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-07T11:22:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-07T11:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_015",
+      "serie": "00001",
+      "numero_dps": 15,
+      "chave_acesso": "35503082112223330001810000000000000152611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 560.0,
+      "competencia": "2026-11-10",
+      "emitida_em": "2026-11-10T16:48:00-03:00",
+      "criada_em": "2026-11-10T16:43:00-03:00",
+      "tomador": {
+        "id": "tom_01",
+        "nome": "Padaria Bom Grão",
+        "documento": "45723174000110",
+        "tipo_documento": "CNPJ",
+        "email": "contato@bomgrao.com.br",
+        "endereco": {
+          "cep": "01310100",
+          "logradouro": "Avenida Paulista",
+          "numero": "1578",
+          "complemento": "Loja 3",
+          "bairro": "Bela Vista",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_04",
+        "apelido": "Material de campanha",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de peças gráficas para campanha promocional.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-10T16:49:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-10T16:48:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-10T16:46:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_016",
+      "serie": "00001",
+      "numero_dps": 16,
+      "chave_acesso": "35503082112223330001810000000000000162611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 390.0,
+      "competencia": "2026-11-11",
+      "emitida_em": "2026-11-11T10:31:00-03:00",
+      "criada_em": "2026-11-11T10:26:00-03:00",
+      "tomador": {
+        "id": "tom_02",
+        "nome": "Estúdio Lume",
+        "documento": "19131243000197",
+        "tipo_documento": "CNPJ",
+        "email": "financeiro@estudiolume.com.br",
+        "endereco": {
+          "cep": "05416001",
+          "logradouro": "Rua dos Pinheiros",
+          "numero": "870",
+          "complemento": null,
+          "bairro": "Pinheiros",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_02",
+        "apelido": "Pacote de posts",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de pacote mensal de artes para redes sociais.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-11T10:32:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-11T10:31:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-11T10:29:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_017",
+      "serie": "00001",
+      "numero_dps": 17,
+      "chave_acesso": "35503082112223330001810000000000000172611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 980.0,
+      "competencia": "2026-11-12",
+      "emitida_em": "2026-11-12T15:02:00-03:00",
+      "criada_em": "2026-11-12T14:57:00-03:00",
+      "tomador": {
+        "id": "tom_06",
+        "nome": "Escola Pequeno Saber",
+        "documento": "28716354000156",
+        "tipo_documento": "CNPJ",
+        "email": "secretaria@pequenosaber.edu.br",
+        "endereco": {
+          "cep": "04003001",
+          "logradouro": "Rua Abílio Soares",
+          "numero": "300",
+          "complemento": null,
+          "bairro": "Paraíso",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_05",
+        "apelido": "Design de embalagem",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para embalagem de produto.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-12T15:03:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-12T15:02:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-12T15:00:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_018",
+      "serie": "00001",
+      "numero_dps": 18,
+      "chave_acesso": "35503082112223330001810000000000000182611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 190.0,
+      "competencia": "2026-11-13",
+      "emitida_em": "2026-11-13T09:15:00-03:00",
+      "criada_em": "2026-11-13T09:10:00-03:00",
+      "tomador": {
+        "id": "tom_05",
+        "nome": "Mercado Sol Nascente",
+        "documento": "32984561000169",
+        "tipo_documento": "CNPJ",
+        "email": "compras@solnascente.com.br",
+        "endereco": {
+          "cep": "03310000",
+          "logradouro": "Rua Itapura",
+          "numero": "1200",
+          "complemento": null,
+          "bairro": "Tatuapé",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-13T09:16:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-13T09:15:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-13T09:13:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_019",
+      "serie": "00001",
+      "numero_dps": 19,
+      "chave_acesso": "35503082112223330001810000000000000192611000000000",
+      "status": "CANCELADA",
+      "ambiente": "TESTES",
+      "valor": 150.0,
+      "competencia": "2026-11-13",
+      "emitida_em": "2026-11-13T17:40:00-03:00",
+      "criada_em": "2026-11-13T17:35:00-03:00",
+      "tomador": {
+        "id": "tom_05",
+        "nome": "Mercado Sol Nascente",
+        "documento": "32984561000169",
+        "tipo_documento": "CNPJ",
+        "email": "compras@solnascente.com.br",
+        "endereco": {
+          "cep": "03310000",
+          "logradouro": "Rua Itapura",
+          "numero": "1200",
+          "complemento": null,
+          "bairro": "Tatuapé",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_CANCELADA",
+          "descricao": "Cancelada: serviço não prestado",
+          "ocorrido_em": "2026-11-13T18:00:00-03:00"
+        },
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-13T17:41:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-13T17:40:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-13T17:38:00-03:00"
+        }
+      ],
+      "cancelamento": {
+        "motivo": 2,
+        "justificativa": "Cliente desistiu do serviço antes do início.",
+        "cancelada_em": "2026-11-13T18:00:00-03:00"
+      }
+    },
+    {
+      "id": "nfs_020",
+      "serie": "00001",
+      "numero_dps": 20,
+      "chave_acesso": "35503082112223330001810000000000000202611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 150.0,
+      "competencia": "2026-11-14",
+      "emitida_em": "2026-11-14T13:20:00-03:00",
+      "criada_em": "2026-11-14T13:15:00-03:00",
+      "tomador": {
+        "id": "tom_07",
+        "nome": "Juliana Prado",
+        "documento": "41827365919",
+        "tipo_documento": "CPF",
+        "email": "ju.prado@email.com",
+        "endereco": {
+          "cep": "05014000",
+          "logradouro": "Rua Cardoso de Almeida",
+          "numero": "90",
+          "complemento": null,
+          "bairro": "Perdizes",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-14T13:21:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-14T13:20:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-14T13:18:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_021",
+      "serie": "00001",
+      "numero_dps": 21,
+      "chave_acesso": "35503082112223330001810000000000000212611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 640.0,
+      "competencia": "2026-11-17",
+      "emitida_em": "2026-11-17T10:05:00-03:00",
+      "criada_em": "2026-11-17T10:00:00-03:00",
+      "tomador": {
+        "id": "tom_04",
+        "nome": "Clínica Vida Plena",
+        "documento": "11444777000161",
+        "tipo_documento": "CNPJ",
+        "email": "adm@vidaplena.med.br",
+        "endereco": {
+          "cep": "01451000",
+          "logradouro": "Avenida Brigadeiro Faria Lima",
+          "numero": "2232",
+          "complemento": "Sala 101",
+          "bairro": "Jardim Paulistano",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_04",
+        "apelido": "Material de campanha",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de peças gráficas para campanha promocional.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-17T10:06:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-17T10:05:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-17T10:03:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_022",
+      "serie": "00001",
+      "numero_dps": 22,
+      "chave_acesso": null,
+      "status": "REJEITADA",
+      "ambiente": "TESTES",
+      "valor": 420.0,
+      "competencia": "2026-11-13",
+      "emitida_em": "2026-11-17T16:20:00-03:00",
+      "criada_em": "2026-11-17T16:15:00-03:00",
+      "tomador": {
+        "id": "tom_03",
+        "nome": "Carlos Mendes",
+        "documento": "52998224725",
+        "tipo_documento": "CPF",
+        "email": "carlos.mendes@email.com",
+        "endereco": {
+          "cep": "04538132",
+          "logradouro": "Rua Funchal",
+          "numero": "411",
+          "complemento": "Apto 52",
+          "bairro": "Vila Olímpia",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_REJEITADA",
+          "descricao": "Recusada pelo governo (E0120)",
+          "ocorrido_em": "2026-11-17T16:21:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-17T16:20:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-17T16:18:00-03:00"
+        }
+      ],
+      "erro": {
+        "codigo": "E0120",
+        "mensagem": "Inscrição municipal não encontrada no cadastro nacional (CNC) do município."
+      }
+    },
+    {
+      "id": "nfs_023",
+      "serie": "00001",
+      "numero_dps": 23,
+      "chave_acesso": "35503082112223330001810000000000000232611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 950.0,
+      "competencia": "2026-11-19",
+      "emitida_em": "2026-11-19T07:58:00-03:00",
+      "criada_em": "2026-11-19T07:53:00-03:00",
+      "tomador": {
+        "id": "tom_02",
+        "nome": "Estúdio Lume",
+        "documento": "19131243000197",
+        "tipo_documento": "CNPJ",
+        "email": "financeiro@estudiolume.com.br",
+        "endereco": {
+          "cep": "05416001",
+          "logradouro": "Rua dos Pinheiros",
+          "numero": "870",
+          "complemento": null,
+          "bairro": "Pinheiros",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_02",
+        "apelido": "Pacote de posts",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de pacote mensal de artes para redes sociais.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-19T07:59:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-19T07:58:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-19T07:56:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_024",
+      "serie": "00001",
+      "numero_dps": 24,
+      "chave_acesso": null,
+      "status": "ENVIANDO",
+      "ambiente": "TESTES",
+      "valor": 380.0,
+      "competencia": "2026-11-18",
+      "emitida_em": "2026-11-19T08:41:00-03:00",
+      "criada_em": "2026-11-19T08:36:00-03:00",
+      "tomador": {
+        "id": "tom_01",
+        "nome": "Padaria Bom Grão",
+        "documento": "45723174000110",
+        "tipo_documento": "CNPJ",
+        "email": "contato@bomgrao.com.br",
+        "endereco": {
+          "cep": "01310100",
+          "logradouro": "Avenida Paulista",
+          "numero": "1578",
+          "complemento": "Loja 3",
+          "bairro": "Bela Vista",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_01",
+        "apelido": "Identidade visual",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de identidade visual: logotipo, paleta de cores, tipografia e manual de marca.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-19T08:41:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-19T08:39:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nfs_025",
+      "serie": "00001",
+      "numero_dps": 25,
+      "chave_acesso": "35503082112223330001810000000000000252611000000000",
+      "status": "AUTORIZADA",
+      "ambiente": "TESTES",
+      "valor": 270.0,
+      "competencia": "2026-11-19",
+      "emitida_em": "2026-11-19T09:05:00-03:00",
+      "criada_em": "2026-11-19T09:00:00-03:00",
+      "tomador": {
+        "id": "tom_08",
+        "nome": "Café Aroma",
+        "documento": "36192748000180",
+        "tipo_documento": "CNPJ",
+        "email": null,
+        "endereco": {
+          "cep": "01426001",
+          "logradouro": "Rua Augusta",
+          "numero": "2690",
+          "complemento": null,
+          "bairro": "Jardins",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_03",
+        "apelido": "Cartão de visita",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de arte para cartão de visita, frente e verso.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": {
+        "situacao": "NAO_DESTACADO_MEI",
+        "cbs": null,
+        "ibs": null,
+        "calculadora": null
+      },
+      "eventos": [
+        {
+          "tipo": "NOTA_AUTORIZADA",
+          "descricao": "Nota autorizada pelo governo",
+          "ocorrido_em": "2026-11-19T09:06:00-03:00"
+        },
+        {
+          "tipo": "NOTA_ENVIADA",
+          "descricao": "DPS assinada e enviada ao Sistema Nacional NFS-e",
+          "ocorrido_em": "2026-11-19T09:05:00-03:00"
+        },
+        {
+          "tipo": "PREVIA_GERADA",
+          "descricao": "Prévia conferida e emissão confirmada",
+          "ocorrido_em": "2026-11-19T09:03:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "rsc_001",
+      "serie": "00001",
+      "numero_dps": null,
+      "chave_acesso": null,
+      "status": "RASCUNHO",
+      "ambiente": "TESTES",
+      "valor": 1200.0,
+      "competencia": "2026-11-18",
+      "emitida_em": null,
+      "criada_em": "2026-11-18T18:10:00-03:00",
+      "tomador": {
+        "id": "tom_02",
+        "nome": "Estúdio Lume",
+        "documento": "19131243000197",
+        "tipo_documento": "CNPJ",
+        "email": "financeiro@estudiolume.com.br",
+        "endereco": {
+          "cep": "05416001",
+          "logradouro": "Rua dos Pinheiros",
+          "numero": "870",
+          "complemento": null,
+          "bairro": "Pinheiros",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_01",
+        "apelido": "Identidade visual",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de identidade visual: logotipo, paleta de cores, tipografia e manual de marca.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": null,
+      "eventos": [
+        {
+          "tipo": "RASCUNHO_SALVO",
+          "descricao": "Rascunho salvo",
+          "ocorrido_em": "2026-11-18T18:10:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "rsc_002",
+      "serie": "00001",
+      "numero_dps": null,
+      "chave_acesso": null,
+      "status": "RASCUNHO",
+      "ambiente": "TESTES",
+      "valor": 320.0,
+      "competencia": "2026-11-16",
+      "emitida_em": null,
+      "criada_em": "2026-11-16T11:45:00-03:00",
+      "tomador": {
+        "id": "tom_06",
+        "nome": "Escola Pequeno Saber",
+        "documento": "28716354000156",
+        "tipo_documento": "CNPJ",
+        "email": "secretaria@pequenosaber.edu.br",
+        "endereco": {
+          "cep": "04003001",
+          "logradouro": "Rua Abílio Soares",
+          "numero": "300",
+          "complemento": null,
+          "bairro": "Paraíso",
+          "municipio": {
+            "codigo_ibge": "3550308",
+            "nome": "São Paulo",
+            "uf": "SP"
+          }
+        }
+      },
+      "servico": {
+        "id": "srv_02",
+        "apelido": "Pacote de posts",
+        "codigo_servico": "170601",
+        "nbs": "120190000"
+      },
+      "descricao": "Criação de pacote mensal de artes para redes sociais.",
+      "municipio_prestacao": {
+        "codigo_ibge": "3550308",
+        "nome": "São Paulo",
+        "uf": "SP"
+      },
+      "tributos": null,
+      "eventos": [
+        {
+          "tipo": "RASCUNHO_SALVO",
+          "descricao": "Rascunho salvo",
+          "ocorrido_em": "2026-11-16T11:45:00-03:00"
+        }
+      ]
+    }
+  ]
+}

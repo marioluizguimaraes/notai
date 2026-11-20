@@ -1,0 +1,54 @@
+{
+  "itens": [
+    {
+      "id": "evt_10",
+      "tipo": "NOTA_AUTORIZADA",
+      "titulo": "Café Aroma",
+      "descricao": "Nota nº 25 autorizada",
+      "valor": 270.0,
+      "status": "AUTORIZADA",
+      "ocorrido_em": "2026-11-19T09:06:00-03:00",
+      "nota_id": "nfs_025"
+    },
+    {
+      "id": "evt_09",
+      "tipo": "NOTA_ENVIADA",
+      "titulo": "Padaria Bom Grão",
+      "descricao": "Nota nº 24 enviada ao governo",
+      "valor": 380.0,
+      "status": "ENVIANDO",
+      "ocorrido_em": "2026-11-19T08:41:00-03:00",
+      "nota_id": "nfs_024"
+    },
+    {
+      "id": "evt_08",
+      "tipo": "NOTA_AUTORIZADA",
+      "titulo": "Estúdio Lume",
+      "descricao": "Nota nº 23 autorizada",
+      "valor": 950.0,
+      "status": "AUTORIZADA",
+      "ocorrido_em": "2026-11-19T07:59:00-03:00",
+      "nota_id": "nfs_023"
+    },
+    {
+      "id": "evt_07",
+      "tipo": "NOTA_REJEITADA",
+      "titulo": "Carlos Mendes",
+      "descricao": "Nota nº 22 recusada (E0120)",
+      "valor": 420.0,
+      "status": "REJEITADA",
+      "ocorrido_em": "2026-11-17T16:21:00-03:00",
+      "nota_id": "nfs_022"
+    },
+    {
+      "id": "evt_06",
+      "tipo": "NOTA_CANCELADA",
+      "titulo": "Mercado Sol Nascente",
+      "descricao": "Nota nº 19 cancelada (serviço não prestado)",
+      "valor": 150.0,
+      "status": "CANCELADA",
+      "ocorrido_em": "2026-11-13T18:00:00-03:00",
+      "nota_id": "nfs_019"
+    }
+  ]
+}

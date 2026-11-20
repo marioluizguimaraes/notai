@@ -1,0 +1,22 @@
+{
+  "credenciais_demo": {
+    "cnpj": "11222333000181",
+    "senha": "notai123"
+  },
+  "resposta": {
+    "access_token": "mock.eyJzdWIiOiJ1c3JfMDEifQ.assinatura",
+    "token_type": "bearer",
+    "expira_em": 3600,
+    "usuario": {
+      "id": "usr_01",
+      "nome": "Ana Souza",
+      "cnpj": "11222333000181",
+      "email": "ana@anasouzadesign.com.br",
+      "avatar_url": null
+    }
+  },
+  "erro": {
+    "detail": "CNPJ ou senha incorretos.",
+    "codigo": "CREDENCIAIS_INVALIDAS"
+  }
+}

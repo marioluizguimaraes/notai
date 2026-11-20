@@ -1,0 +1,22 @@
+{
+  "id": "emp_01",
+  "cnpj": "11222333000181",
+  "razao_social": "ANA SOUZA DESIGN GRAFICO LTDA",
+  "nome_fantasia": "Ana Souza Design",
+  "regime": "MEI",
+  "opcao_simples": 2,
+  "ibs_cbs_modo": "DENTRO_DAS",
+  "ambiente": "TESTES",
+  "inscricao_municipal": "1234567",
+  "municipio": {
+    "codigo_ibge": "3550308",
+    "nome": "São Paulo",
+    "uf": "SP"
+  },
+  "certificado": {
+    "titular": "ANA SOUZA DESIGN GRAFICO LTDA:11222333000181",
+    "valido_ate": "2026-12-12",
+    "status": "VENCE_EM_BREVE",
+    "dias_para_vencer": 23
+  }
+}

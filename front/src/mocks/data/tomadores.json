@@ -1,0 +1,156 @@
+{
+  "itens": [
+    {
+      "id": "tom_01",
+      "nome": "Padaria Bom Grão",
+      "documento": "45723174000110",
+      "tipo_documento": "CNPJ",
+      "email": "contato@bomgrao.com.br",
+      "endereco": {
+        "cep": "01310100",
+        "logradouro": "Avenida Paulista",
+        "numero": "1578",
+        "complemento": "Loja 3",
+        "bairro": "Bela Vista",
+        "municipio": {
+          "codigo_ibge": "3550308",
+          "nome": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    },
+    {
+      "id": "tom_02",
+      "nome": "Estúdio Lume",
+      "documento": "19131243000197",
+      "tipo_documento": "CNPJ",
+      "email": "financeiro@estudiolume.com.br",
+      "endereco": {
+        "cep": "05416001",
+        "logradouro": "Rua dos Pinheiros",
+        "numero": "870",
+        "complemento": null,
+        "bairro": "Pinheiros",
+        "municipio": {
+          "codigo_ibge": "3550308",
+          "nome": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    },
+    {
+      "id": "tom_03",
+      "nome": "Carlos Mendes",
+      "documento": "52998224725",
+      "tipo_documento": "CPF",
+      "email": "carlos.mendes@email.com",
+      "endereco": {
+        "cep": "04538132",
+        "logradouro": "Rua Funchal",
+        "numero": "411",
+        "complemento": "Apto 52",
+        "bairro": "Vila Olímpia",
+        "municipio": {
+          "codigo_ibge": "3550308",
+          "nome": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    },
+    {
+      "id": "tom_04",
+      "nome": "Clínica Vida Plena",
+      "documento": "11444777000161",
+      "tipo_documento": "CNPJ",
+      "email": "adm@vidaplena.med.br",
+      "endereco": {
+        "cep": "01451000",
+        "logradouro": "Avenida Brigadeiro Faria Lima",
+        "numero": "2232",
+        "complemento": "Sala 101",
+        "bairro": "Jardim Paulistano",
+        "municipio": {
+          "codigo_ibge": "3550308",
+          "nome": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    },
+    {
+      "id": "tom_05",
+      "nome": "Mercado Sol Nascente",
+      "documento": "32984561000169",
+      "tipo_documento": "CNPJ",
+      "email": "compras@solnascente.com.br",
+      "endereco": {
+        "cep": "03310000",
+        "logradouro": "Rua Itapura",
+        "numero": "1200",
+        "complemento": null,
+        "bairro": "Tatuapé",
+        "municipio": {
+          "codigo_ibge": "3550308",
+          "nome": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    },
+    {
+      "id": "tom_06",
+      "nome": "Escola Pequeno Saber",
+      "documento": "28716354000156",
+      "tipo_documento": "CNPJ",
+      "email": "secretaria@pequenosaber.edu.br",
+      "endereco": {
+        "cep": "04003001",
+        "logradouro": "Rua Abílio Soares",
+        "numero": "300",
+        "complemento": null,
+        "bairro": "Paraíso",
+        "municipio": {
+          "codigo_ibge": "3550308",
+          "nome": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    },
+    {
+      "id": "tom_07",
+      "nome": "Juliana Prado",
+      "documento": "41827365919",
+      "tipo_documento": "CPF",
+      "email": "ju.prado@email.com",
+      "endereco": {
+        "cep": "05014000",
+        "logradouro": "Rua Cardoso de Almeida",
+        "numero": "90",
+        "complemento": null,
+        "bairro": "Perdizes",
+        "municipio": {
+          "codigo_ibge": "3550308",
+          "nome": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    },
+    {
+      "id": "tom_08",
+      "nome": "Café Aroma",
+      "documento": "36192748000180",
+      "tipo_documento": "CNPJ",
+      "email": null,
+      "endereco": {
+        "cep": "01426001",
+        "logradouro": "Rua Augusta",
+        "numero": "2690",
+        "complemento": null,
+        "bairro": "Jardins",
+        "municipio": {
+          "codigo_ibge": "3550308",
+          "nome": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    }
+  ]
+}
