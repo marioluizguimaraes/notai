@@ -1,0 +1,221 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+@import '@fontsource-variable/inter';
+
+@custom-variant dark (&:is(.dark *));
+
+/* Telas baixas (notebooks com barra do navegador): usadas para evitar rolagem. */
+@custom-variant baixa (@media (max-height: 860px));
+@custom-variant mbaixa (@media (max-height: 720px));
+
+/*
+ * Design system NotAI
+ * Layout: 1ª referência (dashboard com sidebar, KPIs, gráfico, listas).
+ * Cores: 2ª referência (verde como marca, moldura e sidebar brancas, conteúdo
+ * cinza-claro, item ativo verde-claro, CTA escuro, chips suaves).
+ * Regras completas em ../CLAUDE.md (seção Design).
+ */
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+
+  /* shadcn */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Tokens extras do design */
+  --color-canvas: var(--canvas); /* fundo da área de conteúdo */
+  --color-surface: var(--surface); /* blocos internos (cinza bem claro) */
+  --color-ink: var(--ink); /* CTA preto ("New payment") */
+  --color-ink-foreground: var(--ink-foreground);
+  --color-brand: var(--brand); /* verde da marca */
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-lime: var(--lime); /* chip "Day 3 of 5", "94% verified" */
+  --color-lime-foreground: var(--lime-foreground);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+
+  --radius-sm: calc(var(--radius) * 0.5); /* 8px  chips, inputs pequenos */
+  --radius-md: calc(var(--radius) * 0.75); /* 12px botões, blocos internos */
+  --radius-lg: var(--radius); /* 16px cards */
+  --radius-xl: calc(var(--radius) * 1.25); /* 20px cards de destaque */
+  --radius-2xl: calc(var(--radius) * 1.5); /* 24px moldura do app */
+  --radius-3xl: calc(var(--radius) * 2);
+  --radius-4xl: calc(var(--radius) * 2.5);
+
+  --shadow-card: 0 1px 2px 0 rgb(16 24 40 / 0.04);
+  --shadow-pop: 0 8px 24px -6px rgb(16 24 40 / 0.12);
+}
+
+:root {
+  --radius: 1rem;
+
+  /* Paleta (2ª referência): verde como marca, moldura branca, conteúdo cinza-claro */
+  --background: #ffffff; /* moldura e sidebar */
+  --foreground: #16181a;
+  --canvas: #f4f5f5; /* área de conteúdo */
+  --surface: #f4f5f5; /* blocos internos */
+  --card: #ffffff;
+  --card-foreground: #16181a;
+  --popover: #ffffff;
+  --popover-foreground: #16181a;
+
+  --primary: #17985a;
+  --primary-foreground: #ffffff;
+  --brand: #17985a;
+  --brand-strong: #0f7a45;
+  --brand-soft: #e7f5ed;
+  --brand-foreground: #ffffff;
+  --ink: #1c1f1e;
+  --ink-foreground: #ffffff;
+
+  --secondary: #f0f1f1;
+  --secondary-foreground: #16181a;
+  --muted: #f0f1f1;
+  --muted-foreground: #6b716e;
+  --accent: #f0f1f1;
+  --accent-foreground: #16181a;
+
+  --success: #17985a;
+  --success-soft: #e7f5ed;
+  --lime: #d7f0e1;
+  --lime-foreground: #0f6b3d;
+  --warning: #e07b1a;
+  --warning-soft: #fdf1e4;
+  --danger: #e5484d;
+  --danger-soft: #fdeceb;
+  --destructive: #e5484d;
+
+  --border: #e8eaea;
+  --input: #e8eaea;
+  --ring: #17985a;
+
+  --chart-1: #17985a;
+  --chart-2: #bfe5cf;
+  --chart-3: #1c1f1e;
+  --chart-4: #e07b1a;
+  --chart-5: #e5484d;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #3d4340;
+  --sidebar-primary: #17985a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e7f5ed; /* item ativo: fundo verde-claro */
+  --sidebar-accent-foreground: #0f7a45;
+  --sidebar-border: #eceeed;
+  --sidebar-ring: #17985a;
+}
+
+.dark {
+  --background: #0e100f;
+  --foreground: #eef1ef;
+  --canvas: #141716;
+  --surface: #1b1f1d;
+  --card: #181b1a;
+  --card-foreground: #eef1ef;
+  --popover: #181b1a;
+  --popover-foreground: #eef1ef;
+
+  --primary: #2fb873;
+  --primary-foreground: #06140c;
+  --brand: #2fb873;
+  --brand-strong: #4fd08d;
+  --brand-soft: #143223;
+  --brand-foreground: #06140c;
+  --ink: #eef1ef;
+  --ink-foreground: #121413;
+
+  --secondary: #222725;
+  --secondary-foreground: #eef1ef;
+  --muted: #222725;
+  --muted-foreground: #9aa29e;
+  --accent: #222725;
+  --accent-foreground: #eef1ef;
+
+  --success: #3ccf86;
+  --success-soft: #143223;
+  --lime: #1a3a28;
+  --lime-foreground: #8fe3b4;
+  --warning: #ff9d45;
+  --warning-soft: #3a2512;
+  --danger: #ff6b70;
+  --danger-soft: #3a1618;
+  --destructive: #ff6b70;
+
+  --border: #272c2a;
+  --input: #2e3431;
+  --ring: #2fb873;
+
+  --chart-1: #2fb873;
+  --chart-2: #1d4a33;
+  --chart-3: #eef1ef;
+  --chart-4: #ff9d45;
+  --chart-5: #ff6b70;
+
+  --sidebar: #0e100f;
+  --sidebar-foreground: #c3cac6;
+  --sidebar-primary: #2fb873;
+  --sidebar-primary-foreground: #06140c;
+  --sidebar-accent: #143223;
+  --sidebar-accent-foreground: #8fe3b4;
+  --sidebar-border: #1f2422;
+  --sidebar-ring: #2fb873;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans antialiased;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+  /* números financeiros alinhados */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+}
